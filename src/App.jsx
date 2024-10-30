@@ -3,14 +3,15 @@ import logo from "./images/Logo.svg";
 import search from "./images/SearchIcon.svg";
 import cart from "./images/CartIcon.svg";
 import aeroww from "./images/Aerrow.png";
-import 
+import image_1 from "./images/1.png";
+import image_2 from "./images/2.png";
 
 function App() {
   return (
+    <>
     <div className="cont">
       <div className="header">
         < img src={logo} alt="" />
-           
         <h2>Organinc</h2>
         <ul className="tab">
           <li>
@@ -48,12 +49,17 @@ function App() {
         <button className="button_block_one">Explore Now
           <img src={aeroww} alt=""  />
         </button>
-        </div>
-      
+        </div>    
     
       </div>
-    </div>
-  
+      <div className="block_two">
+        
+          <img src={image_1} alt=""></img>
+          <img src={image_2} alt=""></img>
+        
+      </div>
+ </div>
+    </>
   );
 }
 
