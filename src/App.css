@@ -129,3 +129,38 @@ p{
     margin-top: 29px;
     gap: 23px;
 }
+
+.block_three{
+display: flex;
+flex-direction: row;
+margin-top: 29px;
+gap: 23px;
+}
+.header_three{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 82.36px;
+    position: relative;
+    left: 100px;
+    color: #274C5B;
+}
+
+.button_block_three{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    left: 100px;
+    background: #274C5B;
+    border-radius: 16px;
+    width: 220px;
+    height: 79px;
+    border: none;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

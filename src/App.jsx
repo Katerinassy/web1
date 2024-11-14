@@ -5,6 +5,9 @@ import cart from "./images/CartIcon.svg";
 import aeroww from "./images/Aerrow.png";
 import image_1 from "./images/1.png";
 import image_2 from "./images/2.png";
+import lemon from "./images/lemon.svg";
+import icon from "./images/Icon.svg";
+import icon2 from "./images/Icon2.svg";
 
 function App() {
   return (
@@ -57,6 +60,25 @@ function App() {
           <img src={image_1} alt=""></img>
           <img src={image_2} alt=""></img>
         
+      </div>
+      <div className="block_three">
+      <img src={lemon} alt=""></img>
+        <div className="text_block_three">
+          <p className="naturalfood">About Us</p>
+          <p className="header_three">We Believe in Working<br/> Accredited Farmers</p>
+          <p className="">Simply dummy text of the printing and typesetting industry. Lorem had ceased to <br/>  been the industry's standard dummy text ever since the 1500s, when an unknown<br/> printer took a galley.</p>
+        </div>
+        <div className="">
+          <img src={icon} alt=""/>
+          <p className="text_three">Organic Foods Only</p>
+          <p className="">Simply dummy text of the printing and typesetting<br/>  industry. Lorem Ipsum</p>
+          <img src={icon2} alt=""/>
+          <p className="text_three">Quality Standards</p>
+          <p className="">Simply dummy text of the printing and typesetting<br/>  industry. Lorem Ipsum</p>
+        </div>
+        <button className="button_block_three">Shop Now
+          <img src={aeroww} alt=""  />
+        </button>
       </div>
  </div>
     </>
